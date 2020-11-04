@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Abhishek Anand",
+    "email": "abhishek12@gmail.com",
+    "phone": "7458236985",
+    "city": "Patna",
+    "dob": "1999-10-21",
+    "id": "0.25654711254632574"
+  },
+  {
+    "name": "Rohit Sharma",
+    "email": "sharmarohit@gmail.com",
+    "phone": "8547123695",
+    "city": "Mumbai",
+    "dob": "1998-07-07",
+    "id": "0.18014555412565736"
+  },
+  {
+    "name": "Shubham Agarwal",
+    "email": "subham123@gmail.com",
+    "phone": "9658741253",
+    "city": "Punjab",
+    "dob": "2000-01-25",
+    "id": "0.5225469807039944"
+  },
+  {
+    "name": "Deepika Singh",
+    "email": "deepika18@gmail.com",
+    "phone": "7854236958",
+    "city": "Delhi",
+    "dob": "1998-06-18",
+    "id": "0.4905590642079536"
+  }
+]

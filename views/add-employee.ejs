@@ -1,0 +1,26 @@
+<%- include("./includes/head") %>
+  <link rel="stylesheet" href="/css/form.css" />
+</head>
+<body>
+  <%- include("./includes/navigation") %>
+  <h1>Add Employee Details</h1>
+  <form action="/admin/employees" method="POST" class="form">
+    Full Name: <input class="textbox" type="text" name="name" id="name" required/><br />
+    Email: <input class="textbox" type="text" name="email" id="email" required/><br />
+    Phone Number:  <input class="textbox" type="text" name="phone" id="phone" required/><br />
+    City: <select name="city" class="textbox" id="city" required>
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Patna">Patna</option>
+      <option value="Punjab">Punjab</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="Chandigarh">Chandigarh</option>
+      <option value="Lucknow">Lucknow</option>
+      <option value="Bangalore">Bangalore</option>
+      <option value="Chennai">Chennai</option>
+    </select><br />
+    DOB: <input class="textbox" type="date" name="dob" id="dob" required><br />
+    <button class="button" type="submit">Add</button>
+  </form>
+  <%- include("./includes/footer") %>
+</body>

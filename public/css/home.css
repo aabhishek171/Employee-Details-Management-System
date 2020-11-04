@@ -1,0 +1,35 @@
+body {
+  margin-top: 80px;
+  background-color: rgb(236, 204, 144);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(223, 60, 60, 0.2);
+  transition: 0.3s;
+  width: 400px;
+  background-color: rgb(151, 233, 70);
+  display: inline-block;
+  border-radius: 5px;
+  border-color: red;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(3, 20, 248, 0.2);
+}
+
+.container {
+  margin-left: 15px;
+  padding: 2px 16px;
+}
+
+.button {
+  align-content: center;
+  height: 50px;
+  width: 300px;
+  margin-left: 45px;
+}
+
+button:hover {
+  background-color: rgb(241, 110, 62);
+}
